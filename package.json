@@ -1,0 +1,21 @@
+{
+  "name": "pokerroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "PPLDollars.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AudriusJurevicius/workspace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AudriusJurevicius/workspace/issues"
+  },
+  "homepage": "https://github.com/AudriusJurevicius/workspace#readme",
+  "dependencies": {}
+}
