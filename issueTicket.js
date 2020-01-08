@@ -5,39 +5,8 @@ const btnGetList = document.querySelector("#btn-ticket-list");
 const btnIssueTicket = document.querySelector("#btn-ticket-issue");
 const btnEncashTicket = document.querySelector("#btn-ticket-encash");
 
-const tickets = [
-    {id: 882416, name: 'Grand Prix Russia 2019 Feeder Ticket# (1,540 RUB)', settl: 'pp_PPLIVERUB'},
-    {id: 882415, name: 'Grand Prix Russia 2019 Feeder Ticket# (3,080 RUB)', settl: 'pp_PPLIVERUB'},
-    {id: 881972, name: 'Grand Prix Russia 2019 Main Event (15,400 RUB) Seat#', settl: 'pp_PPLIVERUB'},
-    {id: 875359, name: 'Sochi Poker Festival Main Event Seat# (38,500 RUB)', settl: 'pp_PPLIVERUB'},
-    {id: 880158, name: 'Sochi Poker Fest Satellite Ticket# (2,200 RUB)', settl: 'pp_PPLIVERUB'},
-    {id: 880159, name: 'Sochi Poker Fest Satellite Ticket# (4,400 RUB)', settl: 'pp_PPLIVERUB'},
-    {id: 919358, name: 'MILLIONS Loyalty Promo $2.7k', settl: 'pp_event1201'},
-    {id: 881976, name: 'MILLIONS Online 2019 Feeder Ticket - $22 #', settl: 'pp_event1201'},
-    {id: 879088, name: 'MILLIONS Online 2019 Feeder Ticket - $109#', settl: 'pp_event1201'},
-    {id: 904359, name: 'WSOP-C Uruguay $1,100 Seat#', settl: 'pp_event1201'},
-    {id: 904361, name: 'WSOP-C Uruguay $109 Ticket#', settl: 'pp_event1201'},
-    {id: 904376, name: 'WSOP-C Uruguay $22 Ticket#', settl: 'pp_event1201'},
-    {id: 904377, name: 'WSOP-C Uruguay $11 Ticket#', settl: 'pp_event1201'},
-    {id: 907369, name: 'WSOP-C Uruguay Final Millonaria $320 Ticket#', settl: 'pp_event1201'},
-    {id: 907370, name: 'WSOP-C Uruguay Final Millonaria $33 Ticket#', settl: 'pp_event1201'},
-    {id: 896361, name: 'Cosmopol X-Mas Pokerweek $5.50 Ticket#', settl: 'pp_event1201'},
-    {id: 877367, name: 'Cosmopol X-Mas Pokerweek $11 Ticket#', settl: 'pp_event1201'},
-    {id: 896360, name: 'Cosmopol X-Mas Pokerweek $55 Ticket#', settl: 'pp_event1201'},
-    {id: 886369, name: 'partypoker MILLION MTT Ticket - $215 [PPL$#]', settl: 'pp_event1201'},
-    {id: 882360, name: 'partypoker MILLION $215 Ticket #', settl: 'pp_event1201'},
-    {id: 883361, name: 'partypoker MILLION $22 Satellite Ticket #', settl: 'pp_event1201'},
-    {id: 770441, name: 'PP LIVE $3.30 Ticket#', settl: 'pp_event1201'},
-    {id: 770495, name: 'PP LIVE $11 Ticket#', settl: 'pp_event1201'},
-    {id: 802363, name: 'PP LIVE $33 Ticket#', settl: 'pp_event1201'},
-    {id: 765772, name: 'PP LIVE $109 Ticket#', settl: 'pp_event1201'},
-    {id: 875361, name: 'PP LIVE $11 Ticket - CnC#', settl: 'pp_event1201'},
-    {id: 875362, name: 'PP LIVE $1.10 Ticket - CnC#', settl: 'pp_event1201'},
-    {id: 875363, name: 'PP LIVE $3.30 Ticket - CnC#', settl: 'pp_event1201'},
-    {id: 849362, name: 'PP LIVE $0.33 Ticket - CnC#', settl: 'pp_event1201'},
-    {id: 849373, name: 'PP LIVE $0.11 Ticket - CnC#', settl: 'pp_event1201'},
-    {id: 0, name: 'CPP 2019: Ticket Name', settl: 'pp_event1201'}
-]
+// Reikia prideti tickets.json failiuka
+// const tickets = 
 
 btnGetList.addEventListener("click", (e) => {
     e.preventDefault();
