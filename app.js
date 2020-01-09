@@ -18,7 +18,12 @@ app.get('/api/tickets', (req, res) => {
 
 //Get specific ticket info
 app.get('/api/tickets/:id', (req, res) => {
-    res.send(req.params.id)
+    res.json(tickets.filter(t => t.id === parseInt(req.params.id)))
+    console.log(`ticket ID requested: ${req.params.id}`)
+    let data = `ticket ID requested: ${req.params.id}\n`
+    fs.appendFile('logger.txt', data, (err) => {
+        if(err) throw err;
+    })
 })
 
 // Sukuriamas static folderis
